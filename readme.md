@@ -1,5 +1,5 @@
 # In this project, we focused on Ecommerce data to predict the purchase behavior
-## This project is done with GoogleColab.
+## This project is done using GoogleColab.
 
 ### 1. Data exploration
 ### 2. Feature engineering. 
@@ -10,8 +10,8 @@ Imbalanced data should be taken into consideration before training models.
 ### 3. Data subsampling
 
 ### 4. Classification models: Logistic regression, SVM, RandomForest
- * 1.With subsampling, logistic regression shows higher recall for class 'True', 
-  it can predict 100% for class 'True' which is important. However, for class  'False' it is 0%, means it is really bad to predict 'false' class.
+* 1. With subsampling, logistic regression shows higher recall for class 'True', 
+    it can predict 100% for class 'True' which is important. However, for class  'False' it is 0%, means it is really bad to predict 'false' class.
 
 * 2. With or without subsampling, linear SVM shows exact the same recall 100% which is a good model. However, the recall for 'false' class is 0%
 
@@ -28,8 +28,7 @@ Imbalanced data should be taken into consideration before training models.
 #### 6.5 Conclusion: KMeans clustering shows a better cluster behavior when cluster number equals 4
 
 ### 7. Semi-supervised learning. 
-Use June-September data to predict October-December revenue.
-
+* Use June-September data to predict October-December revenue.
 * use normalized values for numeric features to avoid outlier 'drawing effect' *
 
 #### 7.3 Conclusion:
