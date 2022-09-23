@@ -2,7 +2,7 @@
 ## This project is done using GoogleColab.
 
 ### 1. Data exploration
-### 2. Feature engineering. 
+### 2. Feature engineering
 Informational duration show very few yes data for revenue.
 Other featurs show more or less the same pattern for yes and no.
 Imbalanced data should be taken into consideration before training models.
@@ -22,10 +22,10 @@ Imbalanced data should be taken into consideration before training models.
 * n-estimators 50 and above shows the same performance score for RandomForest classifier.
 
 ### 6. Clustering with KMean, semi-supervising model
-#### 6.1 Use number of inertia and cluster to determin 'elbow'.
-#### 6.2 visulize different cluster number for different features
-#### 6.4 Hierarchy visulization of the structure
-#### 6.5 Conclusion: KMeans clustering shows a better cluster behavior when cluster number equals 4
+* 6.1 Use number of inertia and cluster to determin 'elbow'.
+* 6.2 visulize different cluster number for different features
+* 6.4 Hierarchy visulization of the structure
+* 6.5 Conclusion: KMeans clustering shows a better cluster behavior when cluster number equals 4
 
 ### 7. Semi-supervised learning. 
 * Use June-September data to predict October-December revenue.
